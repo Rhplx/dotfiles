@@ -1,19 +1,17 @@
 tap "oven-sh/bun"
 tap "timescam/tap"
-# Dependency manager for Cocoa projects
 brew "cocoapods"
-# Manage multiple Node.js versions
+brew "fzf"
+brew "zstd"
+brew "gitmoji"
 brew "nvm"
-# Shell extension to navigate your filesystem faster
 brew "zoxide"
-# Fish shell like syntax highlighting for zsh
+brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
-# Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun"
-# Command-line interface for 1Password
 cask "1password-cli"
+cask "dbeaver-community"
 cask "font-fira-code-nerd-font"
-# Control your tools with a few keystrokes
 cask "raycast"
 vscode "astro-build.astro-vscode"
 vscode "bradlc.vscode-tailwindcss"

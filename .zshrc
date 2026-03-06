@@ -111,3 +111,4 @@ brewup() {
 eval "$(zoxide init zsh)"
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export HOMEBREW_BUNDLE_FILE="$HOME/dotfiles/Brewfile"
+export SPACESHIP_CONFIG="$HOME/dotfiles/spaceship/spaceship.zsh"

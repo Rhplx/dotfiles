@@ -1,0 +1,43 @@
+tap "oven-sh/bun"
+tap "timescam/tap"
+# Dependency manager for Cocoa projects
+brew "cocoapods"
+# Manage multiple Node.js versions
+brew "nvm"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
+# Fish shell like syntax highlighting for zsh
+brew "zsh-syntax-highlighting"
+# Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
+brew "oven-sh/bun/bun"
+# Command-line interface for 1Password
+cask "1password-cli"
+cask "font-fira-code-nerd-font"
+# Control your tools with a few keystrokes
+cask "raycast"
+vscode "astro-build.astro-vscode"
+vscode "bradlc.vscode-tailwindcss"
+vscode "catppuccin.catppuccin-vsc"
+vscode "christian-kohler.npm-intellisense"
+vscode "dbaeumer.vscode-eslint"
+vscode "dsznajder.es7-react-js-snippets"
+vscode "esbenp.prettier-vscode"
+vscode "expo.vscode-expo-tools"
+vscode "formulahendry.auto-close-tag"
+vscode "formulahendry.auto-rename-tag"
+vscode "github.copilot-chat"
+vscode "jakob101.relativepath"
+vscode "miguelsolorio.fluent-icons"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
+vscode "ms-vscode.live-server"
+vscode "naumovs.color-highlight"
+vscode "oderwat.indent-rainbow"
+vscode "pkief.material-icon-theme"
+vscode "rangav.vscode-thunder-client"
+vscode "redhat.vscode-yaml"
+vscode "ritwickdey.liveserver"
+vscode "xabikos.javascriptsnippets"
+vscode "yoavbls.pretty-ts-errors"

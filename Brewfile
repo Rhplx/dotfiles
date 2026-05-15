@@ -5,7 +5,8 @@ brew "fzf"
 brew "zstd"
 brew "gitmoji"
 brew "nvm"
-brew "postgresql@16", link: true
+brew "postgresql@16", restart_service: :changed, link: true
+brew "railway"
 brew "spaceship"
 brew "zoxide"
 brew "zsh-autosuggestions"

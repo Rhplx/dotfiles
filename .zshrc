@@ -120,3 +120,12 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 
+
+# pnpm
+export PNPM_HOME="/Users/bicho/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME/bin:"*) ;;
+  *) export PATH="$PNPM_HOME/bin:$PATH" ;;
+esac
+# pnpm end
+export PATH="$HOME/.local/bin:$PATH"
